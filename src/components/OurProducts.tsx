@@ -7,7 +7,9 @@ const products = rawProducts as Product[];
 
 export default function OurProducts() {
   const categories = ["Франция", "Германия", "Англия"] as const;
-  const [selectedCategory, setSelectedCategory] = useState(categories[0]);
+  const [selectedCategory, setSelectedCategory] = useState<
+    (typeof categories)[number]
+  >(categories[0]);
 
   const filteredProducts = products.filter(
     (p) => p.category === selectedCategory,
