@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* цвета */
+  --color-header: #eaf4ee;
+  --color-text-primary: #2c2c2c;
+  --color-accent: #598d66;
+  /* размеры */
+  --height-header: 100px;
+
+  --font-primary: "Raleway", sans-serif;
+
+  /* container */
+  --padding-content-x: 165px;
+}
+
+body {
+  font-family: var(--font-primary);
+}
