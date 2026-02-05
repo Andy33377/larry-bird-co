@@ -5,7 +5,7 @@ export default function OurTeam() {
     <div className=" ">
       <PromoBanner />
 
-      <section className=" py-16">
+      <section id="ourteam" className=" py-16">
         <div className="mx-auto max-w-[1440px] px-[var(--padding-content-x)]">
           {/* Верхний блок: картинка + текст */}
           <div className="flex gap-12 items-center mb-16">
@@ -24,7 +24,7 @@ export default function OurTeam() {
                 развития позволяет оценить значение экспериментов, поражающих по
                 своей масштабности…
               </p>
-              <div className="flex items-center gap-6">
+              <div className="flex items-center mt-[20px] gap-6">
                 <img
                   src="/staff/anna-staff.jpg"
                   alt="Сотрудник 1"

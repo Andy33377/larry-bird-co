@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <div className="mx-auto max-w-[1440px] px-[var(--padding-content-x)] py-12 ">
+    <div className="mx-auto max-w-[1440px] px-[var(--padding-content-x)]   ">
       <div className="flex items-center justify-between gap-12">
         <img
           src="/Bird-picture.svg"
@@ -17,9 +17,15 @@ export default function AboutUs() {
             Высокое качество отрисовки на плотной бумаге или льняном холсте.
             Редкие произведения, доступные цены.
           </p>
-          <button className="w-[227px] h-[65px] mt-20 border border-accent text-accent font-medium px-6 py-3 bg-transparent hover:bg-accent hover:text-white transition-colors  ">
+          <a
+            href="#products"
+            className="w-[227px] h-[65px] mt-20 inline-flex items-center justify-center
+             border border-accent text-accent font-medium px-6 py-3
+             bg-transparent hover:bg-accent hover:text-white
+             transition-colors"
+          >
             Продукция
-          </button>
+          </a>
         </div>
       </div>
     </div>

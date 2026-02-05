@@ -66,7 +66,7 @@ export default function Footer() {
           <div className="flex flex-col items-end gap-4">
             <div className="flex gap-2">
               <a
-                href="#"
+                href="https://www.facebook.com/louisarmstrong/"
                 className="w-10 h-10   flex items-center justify-center rounded"
               >
                 <img
@@ -76,7 +76,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/louisarmstrongofficial/"
                 className="w-10 h-10 flex items-center justify-center rounded"
               >
                 <img
@@ -86,7 +86,7 @@ export default function Footer() {
                 />
               </a>
               <a
-                href="#"
+                href="https://www.youtube.com/watch?v=CaCSuzR4DwM"
                 className="w-10 h-10   flex items-center justify-center rounded"
               >
                 <img

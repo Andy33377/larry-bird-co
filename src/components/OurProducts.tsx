@@ -16,8 +16,8 @@ export default function OurProducts() {
   );
 
   return (
-    <section>
-      <div className="mx-auto max-w-[1440px] px-[var(--padding-content-x)] py-16">
+    <section id="products">
+      <div className="mx-auto max-w-[1440px] px-[var(--padding-content-x)] mt-[40px] py-16">
         <div className="flex items-center justify-between mb-10">
           <h2 className="text-[40px] leading-[100%] font-medium text-[#2C2D35]">
             Репродукции
